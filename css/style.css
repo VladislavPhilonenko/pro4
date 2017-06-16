@@ -1,0 +1,469 @@
+@font-face {
+    font-family: 'GothaProBol'; 
+    src: url("..//fonts/GothaProBol.otf") format("opentype");
+}
+@font-face {
+    font-family: 'GothaProReg'; 
+    src: url("..//fonts/GothaProReg.otf") format("opentype");
+}
+@font-face {
+    font-family: 'GothaProBla'; 
+    src: url("..//fonts/GothaProBla.otf") format("opentype");
+}
+
+body {
+	font-family: ;       /*fill it*/
+	font-weight: 300;
+	font-size: 16px;
+	color: black;
+
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;        /*fill it*/
+	font-weight: 300;
+}
+p {
+	margin: 0;        /*fill it*/
+}
+.container {
+	width: 61%;
+	margin: 0 auto;
+	margin-top: 55px;
+}
+.container-fluid {
+	padding: 0;
+}
+
+/*HEADER*/
+.header {
+	text-align: center;
+	background-image: url(..//images/header-bg.png);
+	background-color: #321953;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;  
+}
+.top-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 61%;
+	margin: 0 auto;
+	margin-top: 55px;
+}
+.logo {
+	width: 30%;
+}
+.logo img {
+	width: 100%;
+}
+.number {
+	padding: 9px;
+	font-family: GothaProBol;
+	color: #f0e428;
+}
+.number__h3 {
+	font-size: 1.8em;
+}
+.number__a {
+	color: #f0e428;
+	font-size: 1.2em;
+}
+.number__a:hover {
+	color: #f0e428;
+}
+.middle-content {
+	color: white;
+}
+.middle-content__h2 {
+	font-family: 'Lobster';
+	font-size: 2.7em;
+}
+.middle-content__h3 {
+	margin-top: 20px;
+	font-family: GothaProReg;
+	font-size: 1.25em;
+}
+.banner {
+	margin: 50px 0px;
+	padding: 30px 0;
+	background-image: url(..//images/banner-bg.png);
+}
+.banner__h1 {
+	width: 57%;
+	margin: 0 auto;
+	font-family: GothaProBla;
+	color: #f0e428;
+	font-size: 2.3em;
+	text-transform: uppercase;
+}
+.banner__span {
+	color: white;
+}
+.header__btn {
+	margin: 90px 0px 120px 0px;
+	padding: 10px 30px;
+	border: 7px solid #f0e428;
+	border-radius: 5px;
+	font-family: GothaProBol;
+	font-size: 1.2em;
+	color: #f0e428;
+	background: transparent;
+	text-transform: uppercase;
+}
+/*GALLERY*/
+.gallery {
+	text-align: center;
+}
+.gallery__h2 {
+	font-family: GothaProBol;
+	font-size: 1.5em;
+	color: #074b51;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 80px
+}
+.gallery__elem {
+	margin-bottom: 30px;
+}
+.gallery__elem img {
+	width: 100%;
+}
+.desc {
+	margin-top: 1px;
+	padding: 20px 5px;
+	background-color: red;
+	color: white;
+	text-transform: uppercase;
+}
+.desc__p {
+	font-family: GothaProBol;
+	font-size: .8em;
+}
+/*application*/
+
+.application {
+	margin-top: 30px;
+	background-image: url(..//images/application.png);
+	background-size: cover;
+	background-position: center;
+	padding: 300px 0px;
+	text-align: center;
+}
+.banner-second-section {
+	padding: 50px 0px;
+}
+.banner__h2 {
+	color: white;
+	font-family: GothaProBol;
+	font-size: 1.7em;
+	margin-bottom: 30px;
+}
+.banner__btn {
+	padding: 20px 50px;
+	border: 0;
+	color: white;
+	background-color: #24a4a9;
+	font-family: GothaProBol;
+	font-size: 1.3em;
+}
+
+/*SERVICE*/
+.service {
+	background-image: url(..//images/service-bg.png);
+	background-size: cover;
+	padding: 50px 0px; 
+	text-align: center;
+	font-family: GothaProBol;
+	color: #09273d;
+}
+.service__h2 {
+	font-size: 2.25em;
+}
+.service__p {
+	margin-top: 20px;
+	line-height: 1.2;
+	font-size: 1.1em;
+}
+.service__content {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+.service__elem {
+	width: 25%;
+}
+.service__elem img {
+	width: 100%;
+}
+
+/*FOOTER SECTION*/
+.footer {
+	position: relative;
+}
+.map { 
+	width: 100%;
+}
+.map iframe { 
+	width: 100%;
+	height: 500px;
+}
+.contacts {
+	position: absolute;
+	left: 57%;
+	top: 163px;
+	width: 320px;
+	padding: 0px 35px;
+	background-color: white;
+}
+.contacts__inner {
+	margin-top: 10px;
+}
+.contacts__h2 {
+	margin: 0;
+	margin-top: 29px;
+	margin-bottom: 17px;
+	color: #202040;
+	font-family: GothaProBla;
+	font-size: 2em;
+	letter-spacing: 1.6px;
+	text-transform: uppercase;
+}
+.contacts__line {
+	width: 200px;
+	height: 10px;
+	margin-left: 0px;
+	margin-bottom: 17px;
+	background-color: #ff4e00;
+}
+.contacts__img {
+	float: left;
+}
+.contacts__p {
+	margin-left: 25px;
+	font-family: GothaProReg;
+	font-size: 12px;
+	letter-spacing: 1.3px;
+}
+.contacts__btn {
+	width: 320px;
+	margin-left: -35px;
+	margin-top: 10px;
+	padding: 10px 35px;
+	border: 0;
+	border-radius: 0;
+	color: white;
+	background: #ff4e00;
+	font-family: GothaProReg;
+	font-size: 1em;
+	letter-spacing: 0.5px;
+}
+
+/*FEATURES*/
+.features {
+	padding: 40px 0px;
+	background-image: url(..//images/service-bg.png);
+	background-size: cover;
+	background-position: center;
+	margin-top: 55px;
+	text-align: center;
+}
+.features__h2 {
+	color: #0347ad;
+	font-family: GothaProBol;
+	font-size: 1.7em;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.features__p {
+	font-family: GothaProBol;
+	font-size: 1.4em;
+}
+.features .container {
+	margin-top: 30px; 
+}
+.features__content {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+}
+.features__elem {
+	position: relative;
+	text-align: center;
+	padding: 0px;
+	background-color: #b6c1de;
+}
+.features__h3 {
+	position: absolute;
+	background-color: #b6c1de;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: GothaProBol;
+	font-size: .9em;
+	text-transform: uppercase;
+}
+.features__elem img {
+	width: 100%;
+}
+/*STANCE*/
+.stance {
+	text-align: center;
+	font-family: GothaProBol;
+	color: #09273d;
+}
+.stance__h2 {
+	margin-bottom: 30px;
+	font-size: 1.8em;
+	text-transform: uppercase;
+}
+.stance__p {
+	margin-bottom: 30px;
+	font-size: 1.2em;
+}
+.stance__ul {
+	text-align: left;
+}
+#map {
+    height: 350px;
+}
+/*SLIDER*/
+.slider {
+	margin-top: 60px;
+	text-align: center;
+	position: relative;
+}
+.slider__h2 {
+	margin-bottom: 30px;
+	font-family: GothaProBol;
+	color: #09273d;
+	font-size: 1.8em;
+	text-transform: uppercase;
+}
+.slider__main-content {
+	background-image: url(..//images/bg-slider.png);
+	background-size: cover;
+	background-position: center;
+	padding: 60px 0px;
+	padding-bottom: 100px;
+}
+.slider__elem {
+	width: 50%;
+	margin: auto;
+}
+.slider__elem img {
+	width: 100%;
+}
+.slider__desc {
+	background-color: #ff5a00;
+	padding: 10px 0px;
+	font-family: GothaProBol;
+	color: white;
+	font-size: 2em;
+}
+.carousel-control.right, .carousel-control.left {
+	position: absolute;
+	top: 50%;
+	width: 60px;
+	height: 60px;
+	background-image: none;
+	background-color: #ad01f5;
+	border-radius: 50%;
+	opacity: 1;
+} 
+.carousel-control.right {
+	right: 17%;
+}
+.carousel-control.left {
+	left: 17%;
+}
+#right {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 53%;
+	transform: translate(-50%, -53%);
+}
+#left {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 43%;
+	transform: translate(-43%, -50%);
+}
+.carousel-control.left:hover, .carousel-control.right:hover {
+	opacity: 0.8;
+}
+
+/*ABOUT*/
+.about {
+	margin-top: 0px;
+	text-align: center;
+	font-family: GothaProBol;
+	padding-bottom: 150px;
+}
+.about__h2 {
+	margin: 100px 0px;
+	color: #09273d;
+	font-size: 1.8em;
+	text-transform: uppercase;
+}
+.about__elem {
+	line-height: 1;
+}
+.about__elem span{
+	font-size: 2.5em;
+	color: #2ba4d1;
+}
+.about__slider {
+	position: relative;
+}
+.about__slider-elem {
+	height: 150px;
+	position: relative;
+}
+.about__slider-elem img {
+	width: 90%;
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.about-left.carousel-control.left {
+	top: 60%;
+	left: -12%;
+}
+.about-right.carousel-control.right {
+	top: 60%;
+	right: -12%;
+}
+/*ABILITIES*/
+.abilities {
+	text-align: center;
+	font-family: GothaProBol;
+	color: #09273d;
+}
+.abilities__h2 {
+	font-size: 2em;
+}
+.abilities__h3 {
+	text-transform: uppercase;
+	font-size: 1.3em;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.abilities__inner {
+	padding: 0px;
+	height: 150px;
+	display: flex;
+}
+.abilities__inner img {
+	width: 100%;
+}
+
