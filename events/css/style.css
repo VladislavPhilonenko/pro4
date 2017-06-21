@@ -35,17 +35,19 @@ p {
 .container-fluid {
 	padding: 0;
 }
-
 /*HEADER*/
 .header {
 	text-align: center;
 	background-image: url(..//images/header-bg.png);
-	background-color: #321953;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;  
+	background-color: #321953;
 }
 .top-content {
+	display: -webkit-flex;
+	-webkit-justify-content: space-between;
+	-webkit-align-items: flex-start;
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
@@ -68,8 +70,8 @@ p {
 	font-size: 1.8em;
 }
 .number__a {
-	color: #f0e428;
 	font-size: 1.2em;
+	color: #f0e428;
 }
 .number__a:hover {
 	color: #f0e428;
@@ -95,9 +97,9 @@ p {
 	width: 57%;
 	margin: 0 auto;
 	font-family: GothaProBla;
-	color: #f0e428;
 	font-size: 2.3em;
 	text-transform: uppercase;
+	color: #f0e428;
 }
 .banner__span {
 	color: white;
@@ -109,21 +111,21 @@ p {
 	border-radius: 5px;
 	font-family: GothaProBol;
 	font-size: 1.2em;
+	text-transform: uppercase;
 	color: #f0e428;
 	background: transparent;
-	text-transform: uppercase;
 }
 /*GALLERY*/
 .gallery {
 	text-align: center;
 }
 .gallery__h2 {
+	margin-top: 10px;
+	margin-bottom: 80px;
 	font-family: GothaProBol;
 	font-size: 1.5em;
-	color: #074b51;
 	text-transform: uppercase;
-	margin-top: 10px;
-	margin-bottom: 80px
+	color: #074b51;
 }
 .gallery__elem {
 	margin-bottom: 30px;
@@ -134,9 +136,8 @@ p {
 .desc {
 	margin-top: 1px;
 	padding: 20px 5px;
-	background-color: red;
-	color: white;
 	text-transform: uppercase;
+	color: white;
 }
 .desc__p {
 	font-family: GothaProBol;
@@ -146,36 +147,36 @@ p {
 
 .application {
 	margin-top: 30px;
+	padding: 300px 0px;
+	text-align: center;
 	background-image: url(..//images/application.png);
 	background-size: cover;
 	background-position: center;
-	padding: 300px 0px;
-	text-align: center;
 }
 .banner-second-section {
 	padding: 50px 0px;
 }
 .banner__h2 {
-	color: white;
+	margin-bottom: 30px;
 	font-family: GothaProBol;
 	font-size: 1.7em;
-	margin-bottom: 30px;
+	color: white;
 }
 .banner__btn {
 	padding: 20px 50px;
 	border: 0;
-	color: white;
-	background-color: #24a4a9;
 	font-family: GothaProBol;
 	font-size: 1.3em;
+	color: white;
+	background-color: #24a4a9;
 }
 
 /*SERVICE*/
 .service {
-	background-image: url(..//images/service-bg.png);
-	background-size: cover;
 	padding: 50px 0px; 
 	text-align: center;
+	background-image: url(..//images/service-bg.png);
+	background-size: cover;
 	font-family: GothaProBol;
 	color: #09273d;
 }
@@ -188,6 +189,10 @@ p {
 	font-size: 1.1em;
 }
 .service__content {
+	display: -webkit-flex;
+	-webkit-justify-content: space-between;
+	-webkit-align-items: flex-start;
+	-webkit-flex-wrap: wrap;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -255,28 +260,28 @@ p {
 	padding: 10px 35px;
 	border: 0;
 	border-radius: 0;
-	color: white;
-	background: #ff4e00;
 	font-family: GothaProReg;
 	font-size: 1em;
 	letter-spacing: 0.5px;
+	color: white;
+	background: #ff4e00;
 }
 
 /*FEATURES*/
 .features {
+	margin-top: 55px;
 	padding: 40px 0px;
+	text-align: center;
 	background-image: url(..//images/service-bg.png);
 	background-size: cover;
 	background-position: center;
-	margin-top: 55px;
-	text-align: center;
 }
 .features__h2 {
-	color: #0347ad;
+	margin-bottom: 20px;
 	font-family: GothaProBol;
 	font-size: 1.7em;
 	text-transform: uppercase;
-	margin-bottom: 20px;
+	color: #0347ad;
 }
 .features__p {
 	font-family: GothaProBol;
@@ -286,6 +291,10 @@ p {
 	margin-top: 30px; 
 }
 .features__content {
+	display: -webkit-flex;
+	-webkit-justify-content: center;
+	-webkit-flex-wrap: wrap;
+	-webkit-align-content: center;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -293,13 +302,12 @@ p {
 }
 .features__elem {
 	position: relative;
-	text-align: center;
 	padding: 0px;
+	text-align: center;
 	background-color: #b6c1de;
 }
 .features__h3 {
 	position: absolute;
-	background-color: #b6c1de;
 	width: 100%;
 	top: 50%;
 	left: 50%;
@@ -307,6 +315,7 @@ p {
 	font-family: GothaProBol;
 	font-size: .9em;
 	text-transform: uppercase;
+	background-color: #b6c1de;
 }
 .features__elem img {
 	width: 100%;
@@ -329,28 +338,28 @@ p {
 .stance__ul {
 	text-align: left;
 }
-#map {
-    height: 350px;
+.stance__map img {
+	width: 100%;
 }
 /*SLIDER*/
 .slider {
+	position: relative;
 	margin-top: 60px;
 	text-align: center;
-	position: relative;
 }
 .slider__h2 {
 	margin-bottom: 30px;
 	font-family: GothaProBol;
-	color: #09273d;
 	font-size: 1.8em;
 	text-transform: uppercase;
+	color: #09273d;
 }
 .slider__main-content {
+	padding: 60px 0px;
+	padding-bottom: 100px;
 	background-image: url(..//images/bg-slider.png);
 	background-size: cover;
 	background-position: center;
-	padding: 60px 0px;
-	padding-bottom: 100px;
 }
 .slider__elem {
 	width: 50%;
@@ -360,20 +369,20 @@ p {
 	width: 100%;
 }
 .slider__desc {
-	background-color: #ff5a00;
 	padding: 10px 0px;
 	font-family: GothaProBol;
-	color: white;
 	font-size: 2em;
+	color: white;
+	background-color: #ff5a00;
 }
 .carousel-control.right, .carousel-control.left {
 	position: absolute;
 	top: 50%;
 	width: 60px;
 	height: 60px;
+	border-radius: 50%;
 	background-image: none;
 	background-color: #ad01f5;
-	border-radius: 50%;
 	opacity: 1;
 } 
 .carousel-control.right {
@@ -383,14 +392,12 @@ p {
 	left: 17%;
 }
 #right {
-	display: block;
 	position: absolute;
 	top: 50%;
 	left: 53%;
 	transform: translate(-50%, -53%);
 }
 #left {
-	display: block;
 	position: absolute;
 	top: 50%;
 	left: 43%;
@@ -403,15 +410,15 @@ p {
 /*ABOUT*/
 .about {
 	margin-top: 0px;
+	padding-bottom: 150px;
 	text-align: center;
 	font-family: GothaProBol;
-	padding-bottom: 150px;
 }
 .about__h2 {
 	margin: 100px 0px;
-	color: #09273d;
 	font-size: 1.8em;
 	text-transform: uppercase;
+	color: #09273d;
 }
 .about__elem {
 	line-height: 1;
@@ -424,13 +431,12 @@ p {
 	position: relative;
 }
 .about__slider-elem {
-	height: 150px;
 	position: relative;
+	height: 150px;
 }
 .about__slider-elem img {
-	width: 90%;
-	display: block;
 	position: absolute;
+	width: 90%;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -453,15 +459,21 @@ p {
 	font-size: 2em;
 }
 .abilities__h3 {
-	text-transform: uppercase;
-	font-size: 1.3em;
 	margin-top: 50px;
 	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-size: 1.3em;
 }
 .abilities__inner {
+	display: -webkit-inline-flex;
+	-webkit-justify-content: center;
+	-webkit-flex-wrap: wrap;
+	display: inline-flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 24%;
 	padding: 0px;
-	height: 150px;
-	display: flex;
+	vertical-align: middle;
 }
 .abilities__inner img {
 	width: 100%;

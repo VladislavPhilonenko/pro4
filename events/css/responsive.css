@@ -2,9 +2,6 @@
 	.top-content {
 		width: 80%;
 	}
-	.abilities__inner {
-		height: 120px;
-	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
 	.container {
@@ -44,7 +41,9 @@
 		height: 45px;
 	}
 	.abilities__inner {
-		height: 120px;
+		width: 32%;
+		margin-bottom: 10px;
+		vertical-align: top;
 	}
 }
 @media (min-width: 480px) and (max-width: 767px) {
@@ -122,12 +121,14 @@
 	.about__slider-elem {
 		height: 170px;
 	}
-	.abilities__inner {
-		height: 170px;
+	.stance__map img {
+		width: 120%;
 	}
-	#map {
-    height: 300px;
-}
+	.abilities__inner {
+		width: 49%;
+		margin-bottom: 7px;
+		vertical-align: top;
+	}
 }
 @media (min-width: 480px) and (max-width: 575px) {
 	.gallery__elem {
@@ -139,9 +140,6 @@
 	}
 	.about__h2 {
 		margin: 50px 0px;
-	}
-	.abilities__inner {
-		height: 130px;
 	}
 	.stance__map {
 		width: 100%;
@@ -250,7 +248,9 @@
 		height: 120px;
 	}
 	.abilities__inner {
-		height: 110px;
+		width: 49%;
+		margin-bottom: 7px;
+		vertical-align: top;
 	}
 	.stance__map {
 		width: 100%;
